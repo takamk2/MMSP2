@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <jp.local.yukichan.mmsp2.views.WhiteKeyView
+        android:id="@+id/white1"
+        app:name="white1"
+        app:note_no="0"
+        android:layout_width="@dimen/white_key_width"
+        android:layout_height="@dimen/white_key_height" />
+
+    <jp.local.yukichan.mmsp2.views.WhiteKeyView
+        android:id="@+id/white2"
+        app:name="white2"
+        app:note_no="2"
+        android:layout_width="@dimen/white_key_width"
+        android:layout_height="@dimen/white_key_height"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/white1" />
+
+    <jp.local.yukichan.mmsp2.views.WhiteKeyView
+        android:id="@+id/white3"
+        app:name="white3"
+        app:note_no="4"
+        android:layout_width="@dimen/white_key_width"
+        android:layout_height="@dimen/white_key_height"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/white2" />
+
+    <jp.local.yukichan.mmsp2.views.WhiteKeyView
+        android:id="@+id/white4"
+        app:name="white4"
+        app:note_no="5"
+        android:layout_width="@dimen/white_key_width"
+        android:layout_height="@dimen/white_key_height"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/white3" />
+
+    <jp.local.yukichan.mmsp2.views.WhiteKeyView
+        android:id="@+id/white5"
+        app:name="white5"
+        app:note_no="7"
+        android:layout_width="@dimen/white_key_width"
+        android:layout_height="@dimen/white_key_height"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/white4" />
+
+    <jp.local.yukichan.mmsp2.views.WhiteKeyView
+        android:id="@+id/white6"
+        app:name="white6"
+        app:note_no="9"
+        android:layout_width="@dimen/white_key_width"
+        android:layout_height="@dimen/white_key_height"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/white5" />
+
+    <jp.local.yukichan.mmsp2.views.WhiteKeyView
+        android:id="@+id/white7"
+        app:name="white7"
+        app:note_no="11"
+        android:layout_width="@dimen/white_key_width"
+        android:layout_height="@dimen/white_key_height"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/white6" />
+
+    <jp.local.yukichan.mmsp2.views.BlackKeyView
+        android:id="@+id/black1"
+        app:name="black1"
+        app:note_no="1"
+        android:layout_width="@dimen/black_key_width"
+        android:layout_height="@dimen/black_key_height"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/black_key_margin_left" />
+
+    <jp.local.yukichan.mmsp2.views.BlackKeyView
+        android:id="@+id/black2"
+        app:name="black2"
+        app:note_no="3"
+        android:layout_width="@dimen/black_key_width"
+        android:layout_height="@dimen/black_key_height"
+        android:layout_marginStart="@dimen/black_key_margin_left"
+        android:layout_toEndOf="@+id/white1" />
+
+    <jp.local.yukichan.mmsp2.views.BlackKeyView
+        android:id="@+id/black3"
+        app:name="black3"
+        app:note_no="6"
+        android:layout_width="@dimen/black_key_width"
+        android:layout_height="@dimen/black_key_height"
+        android:layout_marginStart="@dimen/black_key_margin_left"
+        android:layout_toEndOf="@+id/white3" />
+
+    <jp.local.yukichan.mmsp2.views.BlackKeyView
+        android:id="@+id/black4"
+        app:name="black4"
+        app:note_no="8"
+        android:layout_width="@dimen/black_key_width"
+        android:layout_height="@dimen/black_key_height"
+        android:layout_marginStart="@dimen/black_key_margin_left"
+        android:layout_toEndOf="@+id/white4" />
+
+    <jp.local.yukichan.mmsp2.views.BlackKeyView
+        android:id="@+id/black5"
+        app:name="black5"
+        app:note_no="10"
+        android:layout_width="@dimen/black_key_width"
+        android:layout_height="@dimen/black_key_height"
+        android:layout_marginStart="@dimen/black_key_margin_left"
+        android:layout_toEndOf="@+id/white5" />
+
+</RelativeLayout>

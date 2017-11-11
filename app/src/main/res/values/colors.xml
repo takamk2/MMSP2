@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#333333</color>
+    <color name="colorPrimaryDark">#222222</color>
+    <color name="colorAccent">#4081FF</color>
+    <color name="whiteKeySelectedMaskForWhite">#609e990b</color>
+    <color name="whiteKeySelectedMaskForBlack">#50aba972</color>
+    <color name="text">#ffffff</color>
+    <color name="textKeyboardInfoForWhite">#c8000000</color>
+    <color name="textKeyboardInfoForBlack">#c8ffffff</color>
+    <color name="textKeyboardInfoAccentForWhite">#4141c7</color>
+    <color name="textKeyboardInfoAccentForBlack">#7e7ec1</color>
+</resources>
